@@ -1,0 +1,40 @@
+options:
+  # Enable docker for the Pipeline
+  docker: true
+pipelines:
+  branches:
+      master:
+      - step:
+          name: Build Docker Image and deploy
+          image: node:10.15.0
+          script:
+          - git submodule update --force --recursive --init --remote
+          - docker login -u $DOCKER_HUB_USER -p $DOCKER_HUB_PASSWORD
+          - export BITBUCKET_COMMIT_SHORT=$(echo $BITBUCKET_COMMIT | cut -c1-7)
+          - echo $BITBUCKET_COMMIT_SHORT
+          - docker build . -t octopol/$APP:$BITBUCKET_COMMIT_SHORT -f Dockerfile
+          - docker push octopol/$APP:$BITBUCKET_COMMIT_SHORT
+          - apt install -y git
+          - git init
+          - git config --global user.name "semyon"
+          - git config --global user.email "semyon@octopol.io"
+          - mkdir deploy-remote
+          - cd deploy-remote
+          - git clone  https://semyon12:$APP_B_KEY@bitbucket.org/octopoli/natstat_deploy.git
+          - export BITBUCKET_REPO=$(echo $BITBUCKET_REPO_FULL_NAME | sed  's|octopoli/||')
+          - cd natstat_deploy
+          - git remote add new  https://semyon12:$APP_B_KEY@bitbucket.org/octopoli/natstat_deploy.git
+          - git remote -v
+          - git init
+          - git pull new master
+          - export DATE_RESTART=$(echo `date`)
+          - cp deployment_sample.yaml deployment.yaml 
+          - sed -i "s|$SIMAGE octopol/$APP:|$SIMAGE octopol/$APP:$BITBUCKET_COMMIT_SHORT|g" deployment.yaml
+          - sed -i "s/tost/$DATE_RESTART/g" deployment.yaml
+          - echo $BITBUCKET_COMMIT_SHORT > comit.txt
+          - echo `date`
+          - echo `date` >> comit.txt
+          - cp deployment.yaml deploy
+          - git add -A
+          - git commit -a -m "push to remote $BITBUCKET_COMMIT_SHORT"
+          - git push origin master

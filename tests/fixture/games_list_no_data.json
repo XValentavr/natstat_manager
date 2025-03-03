@@ -1,0 +1,27 @@
+{
+    "success": "0",
+    "error": {
+        "message": "NO_DATA",
+        "detail": "There is no data that matches your query."
+    },
+    "query": {
+        "uri": "https://interst.at/game/mbb/1920",
+        "endpoint": "game",
+        "scope": "MBB",
+        "id": "1920"
+    },
+    "meta": {
+        "user": "eliav@octopol.io",
+        "access_expires": "2025-07-03 00:00:00",
+        "processed_at": "2024-07-08 06:42:20",
+        "processing_time": "0.019134998321533 sec",
+        "timezone": "America/New_York",
+        "ip": "18.159.218.109",
+        "queryid": "is.4750314",
+        "api": "Interstat",
+        "version": "A.2406",
+        "documentation": "https://interst.at",
+        "support": "https://natstat.com/support",
+        "note": "All times Eastern."
+    }
+}

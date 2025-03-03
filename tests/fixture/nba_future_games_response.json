@@ -1,0 +1,415 @@
+{
+    "games": {
+        "game_1079271": {
+            "id": "1079271",
+            "gameday": "2024-07-08",
+            "starttime": "19:00",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "35",
+                "team": "Oklahoma City",
+                "team_fullname": "Oklahoma City Thunder",
+                "code": "OKC",
+                "apiurl": "https://interst.at/team/nba/okc,2024"
+            },
+            "home": {
+                "id": "28",
+                "team": "Philadelphia",
+                "team_fullname": "Philadelphia 76ers",
+                "code": "PHI",
+                "apiurl": "https://interst.at/team/nba/phi,2024"
+            },
+            "venue": {
+                "id": "322",
+                "name": "Delta Center",
+                "citystate": "Salt Lake City, UT",
+                "nation": "United States",
+                "longitude": "-111.901150",
+                "latitude": "40.768180"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079271",
+                "siteurl": "https://natstat.com/nba/game/20240708okcphi-1"
+            }
+        },
+        "game_1079272": {
+            "id": "1079272",
+            "gameday": "2024-07-08",
+            "starttime": "21:00",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "31",
+                "team": "Memphis",
+                "team_fullname": "Memphis Grizzlies",
+                "code": "MEM",
+                "apiurl": "https://interst.at/team/nba/mem,2024"
+            },
+            "home": {
+                "id": "26",
+                "team": "Utah",
+                "team_fullname": "Utah Jazz",
+                "code": "UTA",
+                "apiurl": "https://interst.at/team/nba/uta,2024"
+            },
+            "venue": {
+                "id": "322",
+                "name": "Delta Center",
+                "citystate": "Salt Lake City, UT",
+                "nation": "United States",
+                "longitude": "-111.901150",
+                "latitude": "40.768180"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079272",
+                "siteurl": "https://natstat.com/nba/game/20240708memuta-1"
+            }
+        },
+        "game_1079273": {
+            "id": "1079273",
+            "gameday": "2024-07-09",
+            "starttime": "19:00",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "31",
+                "team": "Memphis",
+                "team_fullname": "Memphis Grizzlies",
+                "code": "MEM",
+                "apiurl": "https://interst.at/team/nba/mem,2024"
+            },
+            "home": {
+                "id": "28",
+                "team": "Philadelphia",
+                "team_fullname": "Philadelphia 76ers",
+                "code": "PHI",
+                "apiurl": "https://interst.at/team/nba/phi,2024"
+            },
+            "venue": {
+                "id": "322",
+                "name": "Delta Center",
+                "citystate": "Salt Lake City, UT",
+                "nation": "United States",
+                "longitude": "-111.901150",
+                "latitude": "40.768180"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079273",
+                "siteurl": "https://natstat.com/nba/game/20240709memphi-1"
+            }
+        },
+        "game_1079274": {
+            "id": "1079274",
+            "gameday": "2024-07-09",
+            "starttime": "21:00",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "35",
+                "team": "Oklahoma City",
+                "team_fullname": "Oklahoma City Thunder",
+                "code": "OKC",
+                "apiurl": "https://interst.at/team/nba/okc,2024"
+            },
+            "home": {
+                "id": "26",
+                "team": "Utah",
+                "team_fullname": "Utah Jazz",
+                "code": "UTA",
+                "apiurl": "https://interst.at/team/nba/uta,2024"
+            },
+            "venue": {
+                "id": "322",
+                "name": "Delta Center",
+                "citystate": "Salt Lake City, UT",
+                "nation": "United States",
+                "longitude": "-111.901150",
+                "latitude": "40.768180"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079274",
+                "siteurl": "https://natstat.com/nba/game/20240709okcuta-1"
+            }
+        },
+        "game_1079275": {
+            "id": "1079275",
+            "gameday": "2024-07-10",
+            "starttime": "19:00",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "31",
+                "team": "Memphis",
+                "team_fullname": "Memphis Grizzlies",
+                "code": "MEM",
+                "apiurl": "https://interst.at/team/nba/mem,2024"
+            },
+            "home": {
+                "id": "35",
+                "team": "Oklahoma City",
+                "team_fullname": "Oklahoma City Thunder",
+                "code": "OKC",
+                "apiurl": "https://interst.at/team/nba/okc,2024"
+            },
+            "venue": {
+                "id": "322",
+                "name": "Delta Center",
+                "citystate": "Salt Lake City, UT",
+                "nation": "United States",
+                "longitude": "-111.901150",
+                "latitude": "40.768180"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079275",
+                "siteurl": "https://natstat.com/nba/game/20240710memokc-1"
+            }
+        },
+        "game_1079276": {
+            "id": "1079276",
+            "gameday": "2024-07-10",
+            "starttime": "21:00",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "28",
+                "team": "Philadelphia",
+                "team_fullname": "Philadelphia 76ers",
+                "code": "PHI",
+                "apiurl": "https://interst.at/team/nba/phi,2024"
+            },
+            "home": {
+                "id": "26",
+                "team": "Utah",
+                "team_fullname": "Utah Jazz",
+                "code": "UTA",
+                "apiurl": "https://interst.at/team/nba/uta,2024"
+            },
+            "venue": {
+                "id": "322",
+                "name": "Delta Center",
+                "citystate": "Salt Lake City, UT",
+                "nation": "United States",
+                "longitude": "-111.901150",
+                "latitude": "40.768180"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079276",
+                "siteurl": "https://natstat.com/nba/game/20240710phiuta-1"
+            }
+        },
+        "game_1079264": {
+            "id": "1079264",
+            "gameday": "2024-10-07",
+            "starttime": "13:30",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "13",
+                "team": "Orlando",
+                "team_fullname": "Orlando Magic",
+                "code": "ORL",
+                "apiurl": "https://interst.at/team/nba/orl,2025"
+            },
+            "home": {
+                "id": "38",
+                "team": "New Orleans",
+                "team_fullname": "New Orleans Pelicans",
+                "code": "NOP",
+                "apiurl": "https://interst.at/team/nba/nop,2025"
+            },
+            "venue": {
+                "id": "446",
+                "name": "Smoothie King Center",
+                "citystate": "New Orleans, LA",
+                "nation": "United States",
+                "longitude": "-90.082160",
+                "latitude": "29.948910"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079264",
+                "siteurl": "https://natstat.com/nba/game/20241007orlnop-1"
+            }
+        },
+        "game_1079265": {
+            "id": "1079265",
+            "gameday": "2024-10-09",
+            "starttime": "20:00",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "13",
+                "team": "Orlando",
+                "team_fullname": "Orlando Magic",
+                "code": "ORL",
+                "apiurl": "https://interst.at/team/nba/orl,2025"
+            },
+            "home": {
+                "id": "17",
+                "team": "San Antonio",
+                "team_fullname": "San Antonio Spurs",
+                "code": "SAS",
+                "apiurl": "https://interst.at/team/nba/sas,2025"
+            },
+            "venue": {
+                "id": "501",
+                "name": "Frost Bank Center",
+                "citystate": "San Antonio, TX",
+                "nation": "United States",
+                "longitude": "-98.437320",
+                "latitude": "29.427020"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079265",
+                "siteurl": "https://natstat.com/nba/game/20241009orlsas-1"
+            }
+        },
+        "game_1079266": {
+            "id": "1079266",
+            "gameday": "2024-10-11",
+            "starttime": "19:00",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "38",
+                "team": "New Orleans",
+                "team_fullname": "New Orleans Pelicans",
+                "code": "NOP",
+                "apiurl": "https://interst.at/team/nba/nop,2025"
+            },
+            "home": {
+                "id": "13",
+                "team": "Orlando",
+                "team_fullname": "Orlando Magic",
+                "code": "ORL",
+                "apiurl": "https://interst.at/team/nba/orl,2025"
+            },
+            "venue": {
+                "id": "258",
+                "name": "Kia Center",
+                "citystate": "Orlando, FL",
+                "nation": "United States",
+                "longitude": "-81.386750",
+                "latitude": "28.548770"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079266",
+                "siteurl": "https://natstat.com/nba/game/20241011noporl-1"
+            }
+        },
+        "game_1079268": {
+            "id": "1079268",
+            "gameday": "2024-10-13",
+            "starttime": "15:30",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "38",
+                "team": "New Orleans",
+                "team_fullname": "New Orleans Pelicans",
+                "code": "NOP",
+                "apiurl": "https://interst.at/team/nba/nop,2025"
+            },
+            "home": {
+                "id": "16",
+                "team": "Miami",
+                "team_fullname": "Miami Heat",
+                "code": "MIA",
+                "apiurl": "https://interst.at/team/nba/mia,2025"
+            },
+            "venue": {
+                "id": "394453",
+                "name": "FTX Arena",
+                "citystate": "Miami, FL",
+                "nation": "United States",
+                "longitude": "15.932590",
+                "latitude": "-0.519281"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079268",
+                "siteurl": "https://natstat.com/nba/game/20241013nopmia-1"
+            }
+        },
+        "game_1079269": {
+            "id": "1079269",
+            "gameday": "2024-10-15",
+            "starttime": "20:00",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "38",
+                "team": "New Orleans",
+                "team_fullname": "New Orleans Pelicans",
+                "code": "NOP",
+                "apiurl": "https://interst.at/team/nba/nop,2025"
+            },
+            "home": {
+                "id": "1",
+                "team": "Houston",
+                "team_fullname": "Houston Rockets",
+                "code": "HOU",
+                "apiurl": "https://interst.at/team/nba/hou,2025"
+            },
+            "venue": {
+                "id": "394451",
+                "name": "Toyota Center (Houston)",
+                "citystate": "Houston, TX",
+                "nation": "United States",
+                "longitude": "-95.362142",
+                "latitude": "29.750898"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079269",
+                "siteurl": "https://natstat.com/nba/game/20241015nophou-1"
+            }
+        },
+        "game_1079267": {
+            "id": "1079267",
+            "gameday": "2024-10-18",
+            "starttime": "19:00",
+            "status": "Scheduled",
+            "visitor": {
+                "id": "28",
+                "team": "Philadelphia",
+                "team_fullname": "Philadelphia 76ers",
+                "code": "PHI",
+                "apiurl": "https://interst.at/team/nba/phi,2025"
+            },
+            "home": {
+                "id": "13",
+                "team": "Orlando",
+                "team_fullname": "Orlando Magic",
+                "code": "ORL",
+                "apiurl": "https://interst.at/team/nba/orl,2025"
+            },
+            "venue": {
+                "id": "258",
+                "name": "Kia Center",
+                "citystate": "Orlando, FL",
+                "nation": "United States",
+                "longitude": "-81.386750",
+                "latitude": "28.548770"
+            },
+            "meta": {
+                "apiurl": "https://interst.at/game/nba/1079267",
+                "siteurl": "https://natstat.com/nba/game/20241018phiorl-1"
+            }
+        }
+    },
+    "success": "1",
+    "query": {
+        "uri": "https://interst.at/game/nba/2024-07-07,2025-07-07",
+        "endpoint": "game",
+        "scope": "NBA",
+        "range": "2024-07-07,2025-07-07",
+        "context": {
+            "date": {
+                "date_0": "2024-07-07",
+                "date_1": "2025-07-07"
+            }
+        }
+    },
+    "meta": {
+        "user": "eliav@octopol.io",
+        "access_expires": "2025-07-03 00:00:00",
+        "processed_at": "2024-07-07 05:15:46",
+        "processing_time": "0.020196914672852 sec",
+        "timezone": "America/New_York",
+        "ip": "",
+        "queryid": "is.4718426",
+        "api": "Interstat",
+        "version": "A.2406",
+        "documentation": "https://interst.at",
+        "support": "https://natstat.com/support",
+        "note": "All times Eastern."
+    }
+}
